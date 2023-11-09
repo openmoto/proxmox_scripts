@@ -3,6 +3,11 @@
 # This script toggles IOMMU on or off and assists with setting up GPU passthrough.
 # It modifies the GRUB configuration for IOMMU and prepares the system for GPU passthrough.
 # The script is intended for experienced users and should be used with caution.
+# Author: Michael Agu
+# Date: Nov 9, 2023
+# GitHub: https://github.com/openmoto/proxmox_scripts
+# Usage: ./toggle_iommu.sh
+
 
 # Usage:
 # - To enable/disable IOMMU or check the status, run:
